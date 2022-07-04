@@ -1,0 +1,34 @@
+html{
+    background-color: aqua;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    display: flex;
+    background-color: magenta;
+
+}
+
+.left-panel{
+    background-color: peru;
+    width: 30%;
+    height: 100vh;
+}
+
+.right-panel{
+    background-color: white;
+    width: 70%;
+    height: 100vh;
+}
+
+.imageDiv{
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100px;
+    margin-top: 300px;
+}
