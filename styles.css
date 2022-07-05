@@ -1,5 +1,10 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(Norse-Bold.otf);
+}
+
 html{
-    background-color: aqua;
+    background-color: black;
 
 }
 
@@ -10,25 +15,55 @@ body{
 
 .content{
     display: flex;
-    background-color: magenta;
+    background-color: rgb(14, 14, 14);
 
 }
 
 .left-panel{
-    background-color: peru;
+    background: url(img/janosch-diggelmann-LKAj-Eu2Jyg-unsplash.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 30%;
+    margin-left: 12%;
     height: 100vh;
 }
 
 .right-panel{
     background-color: white;
-    width: 70%;
+    width: 40%;
     height: 100vh;
+    padding: 3%;
+}
+
+.banner{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.icon{
+    background-image: url(img/odin-lined.png);
+    width: 100px;
 }
 
 .imageDiv{
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .65);
+    display: flex;
     width: 100%;
-    height: 100px;
-    margin-top: 300px;
+    height: 120px;
+    margin-top: 80px;
+    padding: 2% 0 2% 0;
+    font-family: norse-bold;
+    vertical-align: 50%;
+    color: white;
+    font-size: 5em;
+    line-height: 1.5em;
+    font-weight: 800;
+    justify-content: center;
+}
+
+.hypeText{
+    margin-top: 50px;
+    font-size: 1.5em;
+    font-weight: 500;
 }
