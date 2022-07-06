@@ -67,3 +67,21 @@ body{
     font-size: 1.5em;
     font-weight: 500;
 }
+
+fieldset{
+    margin-top: 5em;
+    display: inline-block;
+}
+
+legend{
+    font-size: 2em;
+    font-weight: 600;
+}
+
+input{
+    margin-bottom: 1em;
+}
+
+label{
+    display: block;
+}
