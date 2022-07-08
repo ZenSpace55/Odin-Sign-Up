@@ -15,6 +15,7 @@ body{
 
 .content{
     display: flex;
+    justify-content: center;
     background-color: rgb(14, 14, 14);
 
 }
@@ -24,16 +25,13 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 30%;
-    margin-left: 12%;
+    width: 35%;
     height: 100vh;
 }
 
 .right-panel{
     background-color: white;
-    width: 40%;
-    height: 100vh;
-    padding: 3%;
+    width: 45%;
 }
 
 .banner{
@@ -64,24 +62,71 @@ body{
 
 .hypeText{
     margin-top: 50px;
-    font-size: 1.5em;
+    margin-left: 10px;
+    font-size: 1.25em;
     font-weight: 500;
 }
 
 fieldset{
     margin-top: 5em;
-    display: inline-block;
+
 }
 
 legend{
     font-size: 2em;
     font-weight: 600;
+    margin-bottom: 1em;
 }
 
 input{
     margin-bottom: 1em;
 }
 
-label{
-    display: block;
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.combinedLabel{
+    display: flex;
+    flex-direction: column;
+}
+
+
+button{
+    margin-top: 2em;
+    background-color: rgba(56, 36, 24, 0.884);
+    color: rgb(211, 211, 211);
+    border: none;
+    font-size: 1.4em;
+    font-weight: 600;
+    border-radius: .25em;
+    width: 120px;
+    height: 45px;
+}
+button:hover{
+    background-color: rgba(73, 52, 32, 0.884);
+    color: white;
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 600px){
+    .content{
+        flex-direction: column;
+        justify-content: center;
+    }   
+    .left-panel{
+        height: 10em;
+        width: 100%;
+    }
+
+    .right-panel{
+        width: 100%;
+    }
+
+    .imageDiv{
+        margin-top: 10px;
+        height: 90px;
+    }
 }

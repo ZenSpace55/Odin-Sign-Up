@@ -10,7 +10,6 @@
     <body>
         <div class="content">
             <div class="left-panel">
-                left
                 <div class="imageDiv">
                     <img src="img/odin-lined.png"></img>
                     ODIN
@@ -27,29 +26,40 @@
                 <form action="#" method="get">
                     <fieldset>
                         <legend>Let's do this!</legend>
-                        <div>
-                            <label for="firstName">First Name</label>
-                            <input name="firstName" id="firstName">
+                        <div class="wrapper">
+                            <div class="combinedLabel">
+                                <label for="firstName">First Name</label>
+                                <input name="firstName" id="firstName">
+                            </div>
+                            <div class="combinedLabel">
+                                <label for="lastName">Last Name</label>
+                                <input name="lastName" id="lastName">
+                            </div>
                         </div>
-                        <div>
-                            <label for="lastName">Last Name</label>
-                            <input name="lastName" id="lastName">
+                        <div class="wrapper">
+                            <div class="combinedLabel">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email">
+                            </div>
+                            <div class="combinedLabel">
+                                <label for="phoneNo">Phone Number</label>
+                                <input type="tel" name="phoneNo" id="phoneNo">
+                            </div>
                         </div>
-                        <div>
-                            <label for="email">Email</label>
-                            <input type="email" name="email" id="email">
+                        <div class="wrapper">
+                            <div class="combinedLabel">
+                                <label for="password">Password</label>
+                                <input type="password" name="password" id="password">
+                            </div>
+                            <div class="combinedLabel">
+                                <label for="passwordConfirm">Confirm Password</label>
+                                <input type="password" name="passwordConfirm" id="passwordConfirm">
+                            </div>
                         </div>
-                        <div>
-                            <label for="phoneNo">Phone Number</label>
-                            <input type="tel" name="phoneNo" id="phoneNo">
-                        </div>
-                        <div>
-                            <label for="password">Password</label>
-                            <input type="password" name="password" id="password">
-                        </div>
-                        <div>
-                            <label for="passwordConfirm">Confirm Password</label>
-                            <input type="password" name="passwordConfirm" id="passwordConfirm">
+                        <div class="wrapper">
+                            <button>
+                                Sign Up
+                            </button>
                         </div>
                     </fieldset>
                 </form>
