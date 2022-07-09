@@ -40,7 +40,6 @@ body{
 }
 
 .icon{
-    background-image: url(img/odin-lined.png);
     width: 100px;
 }
 
@@ -61,10 +60,17 @@ body{
 }
 
 .hypeText{
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 50px;
-    margin-left: 10px;
+    margin-left: 20px;
     font-size: 1.25em;
     font-weight: 500;
+}
+
+.existingAccountText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: 1em;
 }
 
 fieldset{
@@ -111,7 +117,7 @@ button:hover{
     transform: scale(1.05);
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
     .content{
         flex-direction: column;
         justify-content: center;
@@ -126,7 +132,11 @@ button:hover{
     }
 
     .imageDiv{
-        margin-top: 10px;
+        margin-top: 25px;
         height: 90px;
+        align-items: center;
+    }
+    .icon{
+        height: 85px;
     }
 }
